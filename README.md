@@ -81,3 +81,12 @@ langchain-text-splitters
 
 ⭐ Support
 If you found this project helpful, please give it a ⭐ on GitHub!
+
+
+__________________________________________________________________________________________________________
+
+
+RAG Run by api 
+
+command : ai_rag_project> rag_env\Scripts\activate
+command : (rag_env) inside run this command > uvicorn app:app --reload
