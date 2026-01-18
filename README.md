@@ -89,4 +89,4 @@ ________________________________________________________________________________
 RAG Run by api 
 
 command : ai_rag_project> rag_env\Scripts\activate
-command : (rag_env) inside run this command > uvicorn app:app --reload
+command : (rag_env) inside run this command > uvicorn app:app --reload (uvicorn <file_name>:<FastAPI_instance_name> --reload)
