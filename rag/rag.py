@@ -1,7 +1,7 @@
 import re
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
-from PyPDF2 import PdfReader
+from pypdf import PdfReader
 import chromadb
 
 def extract_text_from_pdf(file_path):
@@ -53,3 +53,4 @@ results = collection.query(
 for doc in results["documents"][0]:
     print(doc)
     print("-----")
+
